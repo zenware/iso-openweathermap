@@ -10,9 +10,32 @@ $ npm install --save iso-openweathermap
 ## Usage
 
 ```js
-var isoOpenweathermap = require('iso-openweathermap');
+$(document).ready(() => {
 
-isoOpenweathermap('Rainbow');
+  const config = {
+    API_ENDPOINT: 'http://api.openweathermap.org/data/2.5/weather', 
+    API_KEY: 'Your API Key',
+    UNITS: 'imperial', 
+    MODE: 'json', 
+    LAT: null, 
+    LON: null,
+    ACCURACY: 'high', 
+    CALLBACK: null, 
+    LANGUAGE: 'en',
+  };
+
+  let weather = new OpenWeatherMap(config);
+  
+  setInterval(() => {
+    $('.country').text(weather.getCountry())
+    $('.city').text(weather.getCity())
+    $('.weather').html(weather.getWeatherDescription() + '<img src="' + weather.getWeatherIcon() + '" \/>');
+    $('.temp').text(weather.getTemp() + weather.getUnitSymbol())
+    $('.pressure').text(weather.getPressure())
+    $('.humidity').text(weather.getHumidity())
+    $('.windspeed').text(weather.getWindspeed())
+  }, 3000);
+});
 ```
 ## License
 
