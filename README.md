@@ -10,6 +10,8 @@ $ npm install --save iso-openweathermap
 ## Usage
 
 ```js
+var OpenWeatherMap = require('iso-openweathermap');
+
 $(document).ready(() => {
 
   const config = {
