@@ -1,13 +1,9 @@
 {
   "name": "iso-openweathermap",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "Isomorphic OpenWeatherMap API",
   "homepage": "https://github.com/zenware/iso-openweathermap",
-  "author": {
-    "name": "Jay Looney <jay.m.looney@gmail.com>",
-    "email": "jay.m.looney@gmail.com",
-    "url": "http://www.jaylooney.us"
-  },
+  "author": "Jay Looney <jay.m.looney@gmail.com> (www.jaylooney.us)",
   "files": [
     "dist"
   ],
@@ -43,10 +39,19 @@
       "mocha": true
     }
   },
-  "repository": "git@github.com:zenware/gfinance.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zenware/iso-openweathermap.git"
+  },
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zenware/iso-openweathermap/issues"
+  },
+  "directories": {
+    "test": "test"
+  }
 }
