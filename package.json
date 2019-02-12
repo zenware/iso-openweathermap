@@ -30,7 +30,7 @@
     "gulp-coveralls": "^0.1.0",
     "gulp-babel": "^5.1.0",
     "del": "^2.0.2",
-    "babel-core": "^5.5.0",
+    "babel-core": "^6.26.3",
     "isparta": "^3.0.3"
   },
   "eslintConfig": {
