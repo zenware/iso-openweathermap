@@ -20,7 +20,7 @@
     "eslint-config-xo-space": "^0.7.0",
     "babel-eslint": "^4.1.6",
     "eslint-plugin-babel": "^3.0.0",
-    "gulp": "^3.9.0",
+    "gulp": "^4.0.1",
     "gulp-eslint": "^1.0.0",
     "gulp-exclude-gitignore": "^1.0.0",
     "gulp-istanbul": "^0.10.3",
