@@ -44,7 +44,7 @@
     "url": "git+ssh://git@github.com/zenware/iso-openweathermap.git"
   },
   "scripts": {
-    "prepublish": "gulp prepublish",
+    "build": "gulp build",
     "test": "gulp"
   },
   "license": "MIT",
