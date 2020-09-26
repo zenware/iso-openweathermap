@@ -29,7 +29,7 @@
     "gulp-plumber": "^1.0.0",
     "gulp-coveralls": "^0.1.0",
     "gulp-babel": "^7.0.1",
-    "del": "^5.0.0",
+    "del": "^6.0.0",
     "babel-core": "^6.26.3",
     "isparta": "^3.0.3"
   },
